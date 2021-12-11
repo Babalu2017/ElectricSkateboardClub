@@ -110,7 +110,33 @@
       height: 350px;
       object-fit: cover;
   }
+
+  /*----------------------page meetups--------------------*/
+  #faq .card {
+    border: 1px #444 solid;
+  }
   
+  #faq a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #faq .card-body,
+  #faq .card-header {
+    background: #333;
+  }
+
+  .cardGreenwich {
+    background-color: var(--green);
+  }
+
+  .cardGherkin {
+    background-color: var(--indigo);
+  }
+
+  .camdenCard {
+    background-color: var(--pink);
+  }
   
   /*---------------------- mediaqueries --------------------*/
   
