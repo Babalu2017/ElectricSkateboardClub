@@ -75,7 +75,23 @@
     #video-play a {
       color: #fff;
     }
+    
+  /*------------------page ABOUT US----------------------*/
+  #page-header {
+    height: 250px;
+    width: 100%;
+    background: url("../images/goldenFromStPaul..jpg") no-repeat center center;
+    background-position: 0 0;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+  }
   
+  .about-img {
+    margin-top: -50px;
+  }
     /*--------Crew img in HomePAge--------*/
    .info_section img {
     position: relative;
