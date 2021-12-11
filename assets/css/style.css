@@ -1,0 +1,117 @@
+  
+  /*--------------CUSTOM CSS forr all pages--------------------*/
+  
+  body {
+      overflow-x: hidden;
+    }
+    
+    .navbar .nav-link {
+      font-size: 14px;
+      text-transform: uppercase;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+    
+    .navbar .nav-item.active {
+      border-left: #444 3px solid;
+    }
+    
+    #main-footer {
+      background: #000;
+      color: #fff;
+    }
+    
+    /*-----------------------page HOME-----------------------------*/
+    
+    .carousel-item {
+      height: 550px;
+    }
+    
+    .carousel-image-1 {
+      background: url("../images/boosterEsk.jpg") no-repeat center center;
+      background-size: cover;
+    }
+    
+    .carousel-image-2 {
+      background: url("../images/womanBlack&White.jpg") no-repeat center center;
+      background-size: cover;
+    }
+    
+    .carousel-image-3 {
+      background: url("../images/autumnRide.jpg") no-repeat center center;
+      background-size: cover;
+    }
+    
+    #home-heading {
+      position: relative;
+      min-height: 200px;
+      background: url("../images/womanBlack&White.jpg") no-repeat center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .dark-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    
+    #video-play {
+      position: relative;
+      min-height: 300px;
+      background: url("../images/womanBlack&White.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: 0 -300px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    #video-play a {
+      color: #fff;
+    }
+  
+    /*--------Crew img in HomePAge--------*/
+   .info_section img {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* right: -200px; */
+    }
+    
+    
+  
+  
+  /*---------------------- mediaqueries --------------------*/
+  
+    @media (min-width:576px) {
+  
+      #page-header {
+        height: 250px;
+        width: 100%;
+        background: url("../images/goldenFromStPaul..jpg") no-repeat center center;
+        background-position: 0 -400px;
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #fff;
+        border-bottom: 1px #eee solid;
+        padding-top: 50px;
+      }
+  
+    }
+  
+    @media (min-width: 992px) { 
+      .info_section img {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        right: -200px;
+        }
+    }
