@@ -75,7 +75,16 @@
     #video-play a {
       color: #fff;
     }
-    
+
+/*--------Crew img in HomePAge--------*/
+ .info_section img {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* right: -200px; */
+    }
+
   /*------------------page ABOUT US----------------------*/
   #page-header {
     height: 250px;
@@ -92,16 +101,15 @@
   .about-img {
     margin-top: -50px;
   }
-    /*--------Crew img in HomePAge--------*/
-   .info_section img {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    /* right: -200px; */
-    }
-    
-    
+  
+/*----------------------page GAllery--------------------*/
+
+.imgs {
+    float: left;
+      width:  350px;
+      height: 350px;
+      object-fit: cover;
+  }
   
   
   /*---------------------- mediaqueries --------------------*/
