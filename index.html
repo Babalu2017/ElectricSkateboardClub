@@ -284,10 +284,27 @@
         $(this).ekkoLightbox();
       });
 
+      // Init Carousel
       $(".carousel").carousel({
         interval: 5000,
-        pause: "hover",
+        pause: "hover"
       });
+
+      // Init Carousel once modals are closed
+      $('.modal').on('hide.bs.modal', function (e) {
+        $(".carousel").carousel({
+        interval: 5000,
+        pause: "hover"
+      });
+      })
+
+      // Stop Carousel while Modals are open
+      $('.modal').on('shown.bs.modal', function (e) {
+        $('.carousel').carousel('pause');
+      });
+
+    
+
 
       //init VIDEO PLAY with jquary
 
