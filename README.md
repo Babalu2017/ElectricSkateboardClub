@@ -51,12 +51,11 @@ If you want to know about the best electric boards, events, meet other eskaters,
 
 -   Interactive elements
 
-## Technologies Used
-
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
 
 ### Frameworks, Libraries & Programs Used
 
@@ -70,12 +69,12 @@ If you want to know about the best electric boards, events, meet other eskaters,
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [ekko-lightbox:](https://www.npmjs.com/package/ekko-lightbox)
+    - Ekko Lightbox is a jQuery plugin which allows you to create a gallery lightbox using Bootstrap modal dialog component.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -145,7 +144,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop,iPhone5, iPhone6, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5, iPhone6, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -153,7 +152,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Carousel keep going while modals are open. That’s give a bad user experience. I used [Bootstrap_Documentation](https://getbootstrap.com/docs/3.4/javascript/#carousel-pause)
     -   Once I fixed the previous bug another one came out, Carousel stopped working. I used [Stackoverflow](https://stackoverflow.com/questions/26863003/how-to-reset-the-bootstrap-modal-when-it-gets-closed-and-open-it-fresh-again)
--   Videos and Carousel and SlideShow didn't work on githubs pages. the issues were caused by http src inside the script.It was solved by adding the secure protocol. I used Stack Overflow again.
+-   Videos and Carousel and SlideShow didn't work on Github pages. the issues were caused by http src inside the script.It was solved by adding the secure protocol. I used Stack Overflow again.
 
 ## Deployment
 
@@ -219,7 +218,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were uploaded from [Unsplash](https://unsplash.com/s/photos/electric-skateboard).
+-   All Images were downloaded from [Unsplash](https://unsplash.com/s/photos/electric-skateboard).
 
 ### Acknowledgements
 
