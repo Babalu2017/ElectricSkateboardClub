@@ -73,7 +73,7 @@
           <div class="carousel-item carousel-image-1 active">
             <div class="container">
               <div class="carousel-caption text-right mb-5">
-                <div style="backdrop-filter: blur(2px);">
+                <div style="backdrop-filter: blur(0.5px);">
                   <h1 class="display-3">Make New Friends</h1>
                   <p class="lead" style="letter-spacing: 1px;">
                     Join the weekly meetup and make new friends.
@@ -102,7 +102,7 @@
           <div class="carousel-item carousel-image-3">
             <div class="container">
               <div class="carousel-caption text-right mb-5">
-                <div style="backdrop-filter: blur(3.5px);">
+                <div style="backdrop-filter: blur(3px);">
                   <h1 class="display-3">Get Updated</h1>                
                   <p class="lead" style="margin-bottom: 0; letter-spacing: 1px;">
                     Do you want get updates on Eskatebords, New Features and Much More?
@@ -294,14 +294,14 @@
 
       // Init Carousel
       $(".carousel").carousel({
-        interval: 5000000,
+        interval: 5000,
         pause: "hover"
       });
 
       // Init Carousel once modals are closed
       $('.modal').on('hide.bs.modal', function (e) {
         $(".carousel").carousel({
-        interval: 5000000,
+        interval: 5000,
         pause: "hover"
       });
       })
