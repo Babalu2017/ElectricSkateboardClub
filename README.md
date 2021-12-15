@@ -208,6 +208,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
+-   [Video Modal](https://stackoverflow.com/questions/54481655/display-video-in-modal/54481920): jQuery Modal Video Plugin.
+    -   YouTube Embedded Players and Player Parameters [YouTube IFrame Player API](https://developers.google.com/youtube/player_parameters?hl=en)
+
 ### Content
 
 -   the README.md file structure follow the [codeistitute](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) sample.
