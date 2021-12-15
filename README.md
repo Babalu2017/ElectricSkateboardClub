@@ -151,8 +151,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   Carousel keep going while modals are open. That’s give a bad user experience. I used [Bootstrap documentation] to solve the issue (https://getbootstrap.com/docs/3.4/javascript/#carousel-pause)
-    -   Once I fixed the previous bug another one came out, Carousel stopped working. I used [Stack Overslow] to solve it (https://stackoverflow.com/questions/26863003/how-to-reset-the-bootstrap-modal-when-it-gets-closed-and-open-it-fresh-again)
+-   Carousel keep going while modals are open. That’s give a bad user experience. I used [Bootstrap_Documentation](https://getbootstrap.com/docs/3.4/javascript/#carousel-pause)
+    -   Once I fixed the previous bug another one came out, Carousel stopped working. I used [Stackoverflow](https://stackoverflow.com/questions/26863003/how-to-reset-the-bootstrap-modal-when-it-gets-closed-and-open-it-fresh-again)
 -   Videos and Carousel and SlideShow didn't work on githubs pages. the issues were caused by http src inside the script.It was solved by adding the secure protocol. I used Stack Overflow again.
 
 ## Deployment
@@ -219,7 +219,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were uploaded from [Unsplash] (https://unsplash.com/s/photos/electric-skateboard).
+-   All Images were uploaded from [Unsplash](https://unsplash.com/s/photos/electric-skateboard).
 
 ### Acknowledgements
 
