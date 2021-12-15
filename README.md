@@ -145,15 +145,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop,iPhone5, iPhone6, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   #########
-    -   #########
--   #########
+-   Carousel keep going while modals are open. That’s give a bad user experience. I used [Bootstrap documentation] to solve the issue (https://getbootstrap.com/docs/3.4/javascript/#carousel-pause)
+    -   Once I fixed the previous bug another one came out, Carousel stopped working. I used [Stack Overslow] to solve it (https://stackoverflow.com/questions/26863003/how-to-reset-the-bootstrap-modal-when-it-gets-closed-and-open-it-fresh-again)
+-   Videos and Carousel and SlideShow didn't work on githubs pages. the issues were caused by http src inside the script.It was solved by adding the secure protocol. I used Stack Overflow again.
 
 ## Deployment
 
@@ -207,11 +207,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The neon button idea came from the [YouTubber Kevin Powell](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
-
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
@@ -223,8 +219,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   The first img named "The light at the end of the keyhole" is an idea of the web desiner [Juliet Daguet](https://dribbble.com/shots/6790534-The-light-at-the-end-of-the-keyhole) but it has been edited by the developer using Adobe Photoshop.
--   All Images were created by the developer.
+-   All Images were uploaded from [Unsplash] (https://unsplash.com/s/photos/electric-skateboard).
 
 ### Acknowledgements
 
