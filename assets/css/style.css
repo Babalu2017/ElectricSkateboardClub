@@ -153,6 +153,19 @@
   .camdenCard {
     background-color: var(--pink);
   }
+  /*----------------------page news--------------------*/
+
+  .cardCovid19 {
+    background-color: var(--pink);
+  }
+
+  .cardGherkin {
+    background-color: var(--indigo);
+  }
+
+  .dd_motorCard {
+    background-color: var(--teal);
+  }
 
   /*----------------------page Contacts--------------------*/
 
