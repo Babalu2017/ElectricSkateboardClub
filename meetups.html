@@ -187,21 +187,27 @@
           <div class="row">
             <div class="col">
               <h1>Join the meetups</h1>
-              <form class="form-inline justify-content-center was-validated">
+              <form 
+              action="#"
+              method="post"
+              class="form-inline justify-content-center was-validated">
                 <input
                   type="text"
+                  name="post_full_name"
                   class="form-control mb-2 mr-2"
-                  placeholder="Name"
+                  placeholder="Full Name"
                   required
                 />
                 <input
                   type="text"
+                  name="post_location_meeting"
                   class="form-control mb-2 mr-2"
                   placeholder="Meetup Location"
                   required
                 />
                 <input
                   type="email"
+                  name="post_email"
                   class="form-control mb-2 mr-2"
                   placeholder="Email"
                   required
