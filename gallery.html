@@ -20,6 +20,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
     />
+    <!-----------------------------slick css------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <!-----------------------------slick theme css------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>esc</title>
   </head>
@@ -42,7 +52,7 @@
               <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">About Us</a>
+              <a href="news.html" class="nav-link">News</a>
             </li>
 
             <li class="nav-item active">
@@ -112,14 +122,14 @@
           </div>
           <div class="col-md-4">
             <a
-              href="assets/images/EskRoundom/electricSerf.jpg"
+              href="assets/images/veniceBeach.jpeg"
               data-toggle="lightbox"
               data-gallary="img-gallery"
               data-max-height="500"
               data-max-width="600"
             >
               <img
-                src="assets/images/EskRoundom/electricSerf.jpg"
+                src="assets/images/veniceBeach.jpeg"
                 alt=""
                 class="imgs img-fluid rounded"
               />
@@ -160,14 +170,14 @@
           </div>
           <div class="col-md-4">
             <a
-              href="assets/images/EskRoundom/usaEsk.png"
+              href="assets/images/miles_phantom.jpeg"
               data-toggle="lightbox"
               data-gallary="img-gallery"
               data-height="560"
               data-max-width="600"
             >
               <img
-                src="assets/images/EskRoundom/usaEsk.png"
+                src="assets/images/miles_phantom.jpeg"
                 alt=""
                 class="imgs img-fluid rounded"
               />
@@ -177,30 +187,44 @@
       </div>
     </section>
 
-    <!----------------------------------NEWSLETTER------------------------------------->
-    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <!------------------------TESTIMONIALS SECTION-------------------------->
+    <section id="testimonials" class="p-4 bg-dark text-white">
       <div class="container">
-        <div class="row">
+        <h2 class="text-center">Testimonials</h2>
+        <div class="row text-center">
           <div class="col">
-            <h1>Sign up for our newsletter</h1>
-            <p>
-              The best way to know about the where, when and how  of our meetups!  
-            </p>
-            <form class="form-inline justify-content-center was-validated">
-              <input
-                type="text"
-                class="form-control mb-2 mr-2"
-                placeholder="Name"
-                required
-              />
-              <input
-                type="email"
-                class="form-control mb-2 mr-2"
-                placeholder="Email"
-                required
-              />
-              <button type="submit" class="btn btn-success mb-2">Submit</button>
-            </form>
+            <div class="slider">
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    The best crew to have fun with!
+                  </p>
+                  <footer class="blockquote-footer">
+                    Megan Jane Lee <cite title="test 1">from Surrey Quays South East London</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    Thank god it's Friday, time for a ride with my mates!
+                  </p>
+                  <footer class="blockquote-footer">
+                    Samantha Kerry <cite title="test 2">from Richmond South West London</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    So much fun, what else to say!
+                  </p>
+                  <footer class="blockquote-footer">
+                    Mike Black <cite title="Test 3">from Hackney East London</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -233,6 +257,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
     <script>
       // Get the current year for the copyright
@@ -244,6 +269,13 @@
         $(this).ekkoLightbox({
           alwaysShowClose: true,
         });
+      });
+
+      //Init slick sliders
+      $('.slider').slick({
+        infinite: true,
+        slideToShow: 1,
+        slideToScroll: 1,
       });
 
     </script>
