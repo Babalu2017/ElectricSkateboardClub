@@ -44,7 +44,9 @@
             <li class="nav-item">
               <a href="news.html" class="nav-link">News</a>
             </li>
-
+            <li class="nav-item">
+              <a href="diy.html" class="nav-link">Diy</a>
+            </li>
             <li class="nav-item">
               <a href="gallery.html" class="nav-link">Gallery</a>
             </li>
@@ -93,9 +95,7 @@
                   </p>
                   <p class="lead" style="margin: 0; padding-top: 0; letter-spacing: 1px;">Ask our community how to do it!</p>
                 </div>
-                <a href="#" class="mt-3 btn btn-success btn-lg video" data-video="https://www.youtube.com/embed/568WGj3WtWs"
-                data-toggle="modal"
-                data-target="#videoModal">Learn How</a>
+                <a href="diy.html" class="mt-3 btn btn-success btn-lg">Learn How</a>
               </div>
             </div>
           </div>
@@ -202,12 +202,35 @@
       </div>
     </div>
 
+     <!----------------------------------VIDEO MODAL2------------------------------------->
+     <div class="modal fade" id="videoModal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <iframe
+              src="#"
+              height="350"
+              width="100%"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!----------------------------------INFO SECTION-------------------------------------->
     <section id="info" class="py-3">
       <div class="container">
+          <div class="row mb-3">
+              <div class="col-md-6 text-md-left text-sm-center">
+                <h3 class="text-center">Make new Friends</h3>
+              </div>
+          </div>
         <div class="row">
-            <div class="col-md-6 align-self-center mb-3">
-              <h3>Make new Friends</h3>
+            <div class="col-md-6 align-self-center mt-3  mb-3 order-2 order-sm-1">
               <p>
                 We want to have fun and meet people that share our same interests. 
                 We think the best way to achive that is organising meetups around London.
@@ -217,8 +240,8 @@
                 >Meetups</a
               >
             </div>
-            <div class="col-md-6 info_section">
-                <img src="assets/images/EskateboardCrew.jpg" alt="eskateboarder crew" class="img-fluid" />
+            <div class="fix_screen_1024 d-flex justify-content-center col-md-6 info_section order-1 order-sm-2">
+                <img src="assets/images/EskateboardCrew.jpg" alt="eskateboarder crew" class="img-fluid rounded" />
             </div>
         </div>
       </div>
@@ -300,19 +323,6 @@
         pause: "hover"
       });
 
-      // Init Carousel once modals are closed
-      $('.modal').on('hide.bs.modal', function (e) {
-        $(".carousel").carousel({
-        interval: 5000,
-        pause: "hover"
-      });
-      })
-
-      // Stop Carousel while Modals are open
-      $('.modal').on('shown.bs.modal', function (e) {
-        $('.carousel').carousel('pause');
-      });
-
       //init VIDEO PLAY with jquary
       $(function () {
         $(".video").click(function () {
@@ -327,6 +337,22 @@
           });
         });
       });
+
+
+      // Stop Carousel while Modals are open
+      $('.modal').on('shown.bs.modal', function (e) {
+        $('.carousel').carousel('pause');
+      });
+
+     
+
+      // Init Carousel once modals are closed
+      $('.modal').on('hide.bs.modal', function (e) {
+        $(".carousel").carousel({
+        interval: 5000,
+        pause: "hover"
+      });
+      })
 
     </script>
   </body>
