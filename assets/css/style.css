@@ -93,15 +93,6 @@
       color: #fff;
     }
 
-/*--------Crew img in HomePAge--------*/
- .info_section img {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    /* right: -200px; */
-    }
-
   /*------------------page ABOUT US----------------------*/
   #page-header {
     height: 250px;
@@ -215,5 +206,12 @@
         position: relative;
         right: 120px;
       }
+    }
 
+    @media (max-width: 768px) {
+      .shape_hero {
+        height: 350px;
+        width: 350px;
+        border-radius: 0 !important;
+      }
     }
