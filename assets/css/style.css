@@ -45,17 +45,17 @@
     }
     
     .carousel-image-1 {
-      background: url("../images/boosterEsk.jpg") no-repeat center center;
+      background: url("../images/boosterEskCartoon.jpg") no-repeat center center;
       background-size: cover;
     }
     
     .carousel-image-2 {
-      background: url("../images/diy_eskateboard.jpeg") no-repeat center center;
+      background: url("../images/diy_eskateboardCartoon.jpg") no-repeat center center;
       background-size: cover;
     }
     
     .carousel-image-3 {
-      background: url("../images/happyRide2.jpeg") no-repeat right center;
+      background: url("../images/happyRide2Cartoon.jpg") no-repeat right center;
       background-size: cover;
     }
     
