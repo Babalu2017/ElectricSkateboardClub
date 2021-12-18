@@ -168,7 +168,13 @@
   }
 
   /*----------------------page Diy--------------------*/
-
+  .info_section img {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* right: -200px; */
+    }
 
 
   
@@ -210,6 +216,12 @@
 
     @media (max-width: 768px) {
       .shape_hero {
+        height: 350px;
+        width: 350px;
+        border-radius: 0 !important;
+      }
+
+      .rounded-sm {
         height: 350px;
         width: 350px;
         border-radius: 0 !important;
