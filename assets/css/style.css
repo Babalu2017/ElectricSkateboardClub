@@ -51,12 +51,12 @@
     }
     
     .carousel-image-2 {
-      background: url("../images/diy_eskateboardCartoon.jpg") no-repeat center center;
+      background: url("../images/StreetSamuraiCartoon.jpg") no-repeat center center;
       background-size: cover;
     }
     
     .carousel-image-3 {
-      background: url("../images/happyRide2Cartoon.jpg") no-repeat right center;
+      background: url("../images/pinIndustrialStreet2Cartoon.jpg") no-repeat center bottom;
       background-size: cover;
     }
     
