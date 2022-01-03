@@ -20,7 +20,6 @@
   body {
       overflow-x: hidden;
       box-sizing: border-box;
-      /* padding-top: 50px; */
     }
 
    .anchored-section {
@@ -192,7 +191,6 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    /* right: -200px; */
     }
 
   
@@ -230,6 +228,19 @@
         position: relative;
         right: 120px;
       }
+
+      .shape_hero {
+        height: 350px !important;
+        width: 350px !important;
+        border-radius: 50% !important;
+      }
+
+      .rounded-sm {
+        height: 350px !important;
+        width: 350px !important;
+        border-radius: 50% !important;
+      }
+      
     }
 
     @media (max-width: 768px) {
@@ -249,7 +260,6 @@
       body {
         overflow-x: hidden;
         box-sizing: border-box;
-        /* padding-top: 50px; */
         height: 100%;
         margin: 0;
       }
