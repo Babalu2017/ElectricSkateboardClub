@@ -676,28 +676,56 @@
     </section>
 
 
-    <!----------------------------------want collaborate------------------------------------->
+    <!----------------------------------leave comment------------------------------------->
     <section id="newsletter" class="text-center p-5 bg-dark text-white">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Collaborate with us</h1>
-                    <p>
-                        Are you interest in eskateboard or evehicles in general? We are really happy to post your
-                        article.
-                    </p>
-                    <form action="https://formdump.codeinstitute.net" method="post" class="form-inline justify-content-center was-validated">
-                        <input type="text" name="name" class="form-control mb-2 mr-2" placeholder="Full Name"
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="card text-muted bg-light mb-3">
+                <div class="card-body px-1">
+                  <h3 class="text-center text-muted">
+                    Leave a comment
+                  </h3>
+                  <p class="mb-0">Your email address will not be published.</p>
+                  <p>Required fields are marked *</p>
+                  <hr style="border: 1px solid gray;" />
+                  <form class="was-validated" action="https://formdump.codeinstitute.net" target="_blank" method="post" >
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" placeholder="* Message" required></textarea>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" name="full_name" class="form-control" placeholder="* Full Name"
                             required />
-                        <input type="email" name="email" class="form-control mb-2 mr-2" placeholder="Email"
-                            required />
-                        <input class="form-control form-control-sm mb-2 mr-2" name="article" type="file" required>
-                        <button type="submit" class="btn btn-success mb-2">Send</button>
-                    </form>
+                        </div>
+                      </div>
+    
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="email" name="last_name" class="form-control" placeholder="* Email" required />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="submit" value="POST COMMENT" class="btn btn-danger btn-block" />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <p>Please note, comments must be approved before they are published.</p>
                 </div>
+              </div>
             </div>
+    
+          </div>
         </div>
-    </section>
+      </section>
 
     <!-----------------FOOTER-------------------->
     <footer id="main-footer" class="text-center p-4">

@@ -503,32 +503,20 @@
               <h3 class="text-center text-muted">
                 Got question? We've got answers!
               </h3>
+              <p>Required fields are marked *</p>
               <hr style="border: 1px solid gray;" />
-              <form action="https://formdump.codeinstitute.net" target="_blank" method="post">
+              <form class="was-validated" action="https://formdump.codeinstitute.net" target="_blank" method="post">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" name="first_name" class="form-control" placeholder="First Name"
+                      <input type="text" name="full_name" class="form-control" placeholder="* Full Name"
                         required />
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" name="last_name" class="form-control" placeholder="Last Name" required />
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email" required />
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="number" name="telphone_number" class="form-control" required
-                        placeholder="Phone Number" />
+                      <input type="email" name="email" class="form-control" placeholder="* Email" required />
                     </div>
                   </div>
                 </div>
@@ -536,12 +524,12 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                      <textarea class="form-control" name="message" placeholder="* Message" required></textarea>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="submit" value="Submit" class="btn btn-outline-success btn-block" />
+                      <input type="submit" value="SUBMIT" class="btn btn-outline-success btn-block" />
                     </div>
                   </div>
                 </div>

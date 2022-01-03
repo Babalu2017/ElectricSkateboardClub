@@ -1,6 +1,6 @@
 <h1 align="center">ESC-Electric Skatebord Club- in London</h1>
 
-[View the live project here.](https://babalu2017.github.io/ElectricSkateboardClub/){:target="_blank"}
+[View the live project here.](https://babalu2017.github.io/ElectricSkateboardClub/)
 
 This website has the intent to reunite people in London that share the same passion ELECTRIC SKATEBOARDS/LONGBOARDS.
 Our platform has the aim  to promote meetups and rides London.
@@ -21,7 +21,7 @@ If you want to know about the best electric boards, events, meet other eskaters,
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about new technologies used for upgrade Electric Skateborads.
-        2. As a Returning Visitor, I want to find the best way to get in contact with people that share my same interest  and ask any questions I may have.
+        2. As a Returning Visitor, I want to find the best way to get in contact with people that share my same interests and ask any questions I may have.
         3. As a Returning Visitor, I want to find community links.
 
     -   #### Frequent User Goals
