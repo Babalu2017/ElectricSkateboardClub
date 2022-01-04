@@ -1,4 +1,4 @@
-<h1 align="center">ESC-Electric Skatebord Club- in London</h1>
+<h1 align="center">ESC-Electric Skatebord Club- London</h1>
 
 [View the live project here.](https://babalu2017.github.io/ElectricSkateboardClub/)
 
@@ -6,7 +6,8 @@ This website has the intent to reunite people in London that share the same pass
 Our platform has the aim  to promote meetups and rides London.
 If you want to know about the best electric boards, events, meet other eskaters, building your own electric skateboard and more that's the right place for you.
 
-<h2 align="center">IMG MOCKUP (large-medium-small devices)</h2>
+<h2 align="center"><img src="assets/png_wireframe/mockup.png"></h2>
+
 
 ## User Experience (UX)
 
@@ -80,10 +81,10 @@ If you want to know about the best electric boards, events, meet other eskaters,
     - Ekko Lightbox is a jQuery plugin which allows you to create a gallery lightbox using Bootstrap modal dialog component.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+1. [GitHub:](https://github.com/Babalu2017/ElectricSkateboardClub)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Balsamiq:](#)
+    - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
