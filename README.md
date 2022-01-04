@@ -41,9 +41,16 @@ If you want to know about the best electric boards, events, meet other eskaters,
 
     -   Home Page Wireframe - [View](#)
 
-    -   Mobile Wireframe - [View](#)
+    -   Blog Page Wireframe - [View](#)
+
+    -   Diy and Articles Page Wireframe - [View](#)
+
+    -   Gallery Page Wireframe - [View](#)
 
     -   Contact Us Page Wireframe - [View](#)
+
+    -   Mobile and Tablet Wireframe - [View](#)
+
 
 ## Features
 
