@@ -39,17 +39,17 @@ If you want to know about the best electric boards, events, meet other eskaters,
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](#)
+    -   Home Page Wireframe - [View](assets/png_wireframe/home_wireframe.png)
 
-    -   Blog Page Wireframe - [View](#)
+    -   Blog Page Wireframe - [View](assets/png_wireframe/blog_meetups_wireframe.png)
 
-    -   Diy and Articles Page Wireframe - [View](#)
+    -   Diy and Articles Page Wireframe - [View](assets/png_wireframe/diy_articles_wireframe.png)
 
-    -   Gallery Page Wireframe - [View](#)
+    -   Gallery Page Wireframe - [View](assets/png_wireframe/gallery_wireframe.png)
 
-    -   Contact Us Page Wireframe - [View](#)
+    -   Contact Us Page Wireframe - [View](assets/png_wireframe/contact_wireframe.png)
 
-    -   Mobile and Tablet Wireframe - [View](#)
+    -   Mobile and Tablet Wireframe - [View](assets/png_wireframe/smarthphone_tablet_wireframe.png)
 
 
 ## Features
