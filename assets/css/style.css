@@ -223,7 +223,9 @@
         }
     }
 
-    
+     @media (min-width: 1024px) { 
+      
+
       .shape_hero {
         height: 350px !important;
         width: 350px !important;
