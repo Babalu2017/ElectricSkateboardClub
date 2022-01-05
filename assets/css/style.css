@@ -223,12 +223,7 @@
         }
     }
 
-    @media (min-width: 1024px) { 
-      .fix_screen_1024 {
-        position: relative;
-        right: 120px;
-      }
-
+    
       .shape_hero {
         height: 350px !important;
         width: 350px !important;
