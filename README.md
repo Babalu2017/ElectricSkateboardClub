@@ -83,7 +83,7 @@ If you want to know about the best electric boards, events, meet other eskaters,
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/Babalu2017/ElectricSkateboardClub)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Balsamiq:](#)
+1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
@@ -101,13 +101,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a carousel Hero Images with  buttons a "Join Us"  "Learn How" and "Read more" Call to action button.
         2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        
 
 
 -   #### Returning Visitor Goals
@@ -118,21 +118,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the community with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+        1. The navigation bar clearly highlights the "Contact" Page.
+        2. Here they can fill out the form on the page.
+        
         
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any new meetups.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    1. As a Frequent User, I want to check to see if there are any new blog posts.
 
         1. The user would already be comfortable with the website layout and can easily click the blog link
 
@@ -146,10 +140,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   Carousel keep going while modals are open. That’s give a bad user experience. I used [Bootstrap_Documentation](https://getbootstrap.com/docs/3.4/javascript/#carousel-pause)
-    -   Once I fixed the previous bug another one came out, Carousel stopped working. I used [Stackoverflow](https://stackoverflow.com/questions/26863003/how-to-reset-the-bootstrap-modal-when-it-gets-closed-and-open-it-fresh-again)
--   Videos and Carousel and SlideShow didn't work on Github pages. the issues were caused by http src inside the script.It was solved by adding the secure protocol. I used Stack Overflow again.
--   On small devices HOME page and DIY the navbar fixed top didn't work. I added html,body selector height:100% and margin:0 to css stylesheet.  
+-   Diy page header and footer are less wide then navbar the bug occur between 1024px and 992px 
 
 
 ## Deployment
@@ -158,25 +149,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](#)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Babalu2017/ElectricSkateboardClub)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](#) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://github.com/Babalu2017/ElectricSkateboardClub/settings/pages) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](#)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Babalu2017/ElectricSkateboardClub)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](#)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Babalu2017/ElectricSkateboardClub)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -204,14 +195,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
+-   Carousel keep going while modals are open. That’s give a bad user experience. I used [Bootstrap_Documentation](https://getbootstrap.com/docs/3.4/javascript/#carousel-pause)
+    -   Once I fixed the previous bug another one came out, Carousel stopped working. I used [Stackoverflow](https://stackoverflow.com/questions/26863003/how-to-reset-the-bootstrap-modal-when-it-gets-closed-and-open-it-fresh-again)
+-   Videos and Carousel and SlideShow didn't work on Github pages. the issues were caused by http src inside the script.It was solved by adding the secure protocol. I used Stack Overflow again.
+-   On small devices HOME page and DIY the navbar fixed top didn't work. I added html,body selector height:100% and margin:0 to css stylesheet. I used Stackoverflow again
+
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [Video Modal](https://stackoverflow.com/questions/54481655/display-video-in-modal/54481920): jQuery Modal Video Plugin.
     -   YouTube Embedded Players and Player Parameters [YouTube IFrame Player API](https://developers.google.com/youtube/player_parameters?hl=en)
 
-### Content
-
 -   the README.md file structure follow the [codeistitute](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) sample.
+
+### Content
 
 -   All content was written by the developer.
 
