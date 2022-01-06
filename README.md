@@ -200,6 +200,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Videos and Carousel and SlideShow didn't work on Github pages. the issues were caused by http src inside the script.It was solved by adding the secure protocol. I used Stack Overflow again.
 -   On small devices HOME page and DIY the navbar fixed top didn't work. I added html,body selector height:100% and margin:0 to css stylesheet. I used Stackoverflow again
 
+-   For the animation hamburger menu' I used [MDBootstrap](https://mdbootstrap.com/docs/standard/extended/hamburger-menu/)
+
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [Video Modal](https://stackoverflow.com/questions/54481655/display-video-in-modal/54481920): jQuery Modal Video Plugin.
