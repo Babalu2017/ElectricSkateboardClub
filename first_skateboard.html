@@ -19,33 +19,35 @@
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: black;">
         <div class="container">
             <a href="index.html" class="navbar-brand text-light">ESk8 Club_London</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler second-button " type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent10" aria-controls="navbarToggleExternalContent10"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="index.html" class="nav-link text-light">Home</a>
-                </li>
-                <li class="nav-item active">
-                  <a href="news.html" class="nav-link text-light">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a href="diy.html" class="nav-link text-light">Diy</a>
-                </li>
-                <li class="nav-item">
-                  <a href="meetups.html" class="nav-link text-light">MeetUps</a>
-                </li>
-                <li class="nav-item">
-                  <a href="gallery.html" class="nav-link text-light">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link text-light">Contact</a>
-                </li>
-              </ul>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent10">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-light">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="news.html" class="nav-link text-light">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="diy.html" class="nav-link text-light">Diy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="meetups.html" class="nav-link text-light">MeetUps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link text-light">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link text-light">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-      </nav>
+    </nav>
 
     <!------------------------HEADER-------------------------->
     <header id="page-header">
@@ -206,8 +208,8 @@
                 </div>
 
                 <div class="col-md-6 d-flex align-self-center">
-                    <img src="assets/images/firstEskaboardPage/Riptide-Bushings-Set-Double-Kingpin-TrucksCartoon.jpg" alt=""
-                        class="mt-0 mb-3 img-fluid rounded about-img border border-secondary" />
+                    <img src="assets/images/firstEskaboardPage/Riptide-Bushings-Set-Double-Kingpin-TrucksCartoon.jpg"
+                        alt="" class="mt-0 mb-3 img-fluid rounded about-img border border-secondary" />
                 </div>
             </div>
 
@@ -679,53 +681,57 @@
     <!----------------------------------leave comment------------------------------------->
     <section id="newsletter" class="text-center p-5 bg-dark text-white">
         <div class="container">
-          <div class="row">
-            <div class="col-md-10 offset-md-1">
-              <div class="card text-muted bg-light mb-3">
-                <div class="card-body px-1">
-                  <h3 class="text-center text-muted">
-                    Leave a comment
-                  </h3>
-                  <p class="mb-0">Your email address will not be published.</p>
-                  <p>Required fields are marked *</p>
-                  <hr style="border: 1px solid gray;" />
-                  <form class="was-validated" action="https://formdump.codeinstitute.net" target="_blank" method="post" >
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <textarea class="form-control" name="message" placeholder="* Message" required></textarea>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="card text-muted bg-light mb-3">
+                        <div class="card-body px-1">
+                            <h3 class="text-center text-muted">
+                                Leave a comment
+                            </h3>
+                            <p class="mb-0">Your email address will not be published.</p>
+                            <p>Required fields are marked *</p>
+                            <hr style="border: 1px solid gray;" />
+                            <form class="was-validated" action="https://formdump.codeinstitute.net" target="_blank"
+                                method="post">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" placeholder="* Message"
+                                                required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="full_name" class="form-control"
+                                                placeholder="* Full Name" required />
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" name="email" class="form-control" placeholder="* Email"
+                                                required />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="submit" value="POST COMMENT"
+                                                class="btn btn-danger btn-block" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <p>Please note, comments must be approved before they are published.</p>
                         </div>
-                      </div>
                     </div>
-    
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" name="full_name" class="form-control" placeholder="* Full Name"
-                            required />
-                        </div>
-                      </div>
-    
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="email" name="email" class="form-control" placeholder="* Email" required />
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <input type="submit" value="POST COMMENT" class="btn btn-danger btn-block" />
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                  <p>Please note, comments must be approved before they are published.</p>
                 </div>
-              </div>
+
             </div>
-    
-          </div>
         </div>
-      </section>
+    </section>
 
     <!-----------------FOOTER-------------------->
     <footer id="main-footer" class="text-center p-4">
@@ -736,8 +742,7 @@
                     <p>
                         <a href="http://jigsaw.w3.org/css-validator/check/referer">
                             <img style="border:0;width:88px;height:31px"
-                                src="http://jigsaw.w3.org/css-validator/images/vcss"
-                                alt="CSS Valido!" />
+                                src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS Valido!" />
                         </a>
                     </p>
                 </div>
@@ -754,6 +759,13 @@
     <script>
         // Get the current year for the copyright
         $("#year").text(new Date().getFullYear());
+
+        //init animated hamburger menu
+
+        document.querySelector('.second-button').addEventListener('click', function () {
+
+            document.querySelector('.animated-icon2').classList.toggle('open');
+        });
 
     </script>
 </body>
