@@ -197,11 +197,11 @@
       color: #fff;
     }
 
-  /*------------------page ABOUT US----------------------*/
+  /*------------------HEADER all pages----------------------*/
   #page-header {
     height: 250px;
     width: 100%;
-    background: url("../images/goldenFromStPaul..jpg") no-repeat center center;
+    background: url("../images/goldenFromStPaulWEB.gif") no-repeat center center;
     background-position: 0 0;
     background-size: 100%;
     background-attachment: fixed;
