@@ -15,20 +15,25 @@ If you want to know about the best electric boards, events, meet other eskaters,
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the community.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the community. [Purpose](assets/images/ux_screenshoots/optimazed_purpose2.jpg)
+
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. [Navigation](assets/images/ux_screenshoots/optimazed_navigation.jpg)
+
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. [Testimonials](assets/images/ux_screenshoots/optimazed_testimonials.jpg)
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about new technologies used for upgrade Electric Skateborads.
-        2. As a Returning Visitor, I want to find the best way to get in contact with people that share my same interests and ask any questions I may have.
+        1. As a Returning Visitor, I want to find information about new technologies used for upgrade Electric Skateborads. [Blog New Tecnologies](assets/images/ux_screenshoots/optimazed_new_tecnologies.jpg)
+
+        2. As a Returning Visitor, I want to find the best way to get in contact with people that share my same interests. [Connect with people](assets/images/ux_screenshoots/optimazed_connect_with_people.jpg)
         
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added meetups.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check to see if there are any newly added meetups. [Meetups](assets/images/ux_screenshoots/optimazed_meetup_section.jpg)
+
+        2. As a Frequent User, I want to check to see if there are any new blog posts. [Blog](assets/images/ux_screenshoots/optimazed_blog_section.jpg)
+
+        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. [Newsletter](assets/images/ux_screenshoots/optimazed_newsletter.jpg)
 
 -   ### Design
     -   #### Colour Scheme
