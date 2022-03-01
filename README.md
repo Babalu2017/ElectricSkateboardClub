@@ -97,38 +97,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation. [screenshot1] (assets/images/ux_screenshoots/optimazed_purpose1.jpg) [screenshot2] (assets/images/ux_screenshoots/optimazed_purpose2.jpg)
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation. [Purpose](assets/images/ux_screenshoots/optimazed_purpose2.jpg)
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a carousel Hero Images with  buttons a "Join Us"  "Learn How" and "Read more" Call to action button.
-        2. The main points are made immediately with the hero image
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a carousel Hero Images with  buttons a "Join Us"  "Learn How" and "Read more" Call to action button. [Screenshoot](assets/images/ux_screenshoots/learnhow_joinus_readmore.jpg)
+
+        2. The main points are made immediately with images. [Purpose](assets/images/ux_screenshoots/optimazed_purpose1.jpg)
         
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly. [Navigation](assets/images/ux_screenshoots/optimazed_navigation.jpg)
+
+        2. At the bottom of each blog pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page. [Screenshoot](assets/images/ux_screenshoots/optimazed_back_to_blog.jpg)
         
 
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new meetups.
+    1. As a Returning Visitor, I want to find the new meetups. [Meetups](assets/images/ux_screenshoots/optimazed_meetup_section.jpg)
 
-        1. These are clearly shown in the banner message.
+    2. As a Returning Visitor, I want to find the best way to get in contact with the community. [Purpose](assets/images/ux_screenshoots/optimazed_connect_with_people.jpg)
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the community with any questions I may have.
+        1. The navigation bar clearly highlights the "Contact" Page. [Navigation](assets/images/ux_screenshoots/optimazed_navigation.jpg)
 
-        1. The navigation bar clearly highlights the "Contact" Page.
-        2. Here they can fill out the form on the page.
+        2. Here they can fill out the form on the page. [Contact Form](assets/images/ux_screenshoots/optimazed_contact_form.jpg)
         
         
 
 -   #### Frequent User Goals
 
 
-    1. As a Frequent User, I want to check to see if there are any new blog posts.
+    1. As a Frequent User, I want to check to see if there are any new blog posts. [Blog](assets/images/ux_screenshoots/optimazed_blog_section.jpg)
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
+        1. The user would already be comfortable with the website layout and can easily click the blog link. [Screenshoot](assets/images/ux_screenshoots/optimazed_blog_link.jpg)
 
 
 ### Further Testing
