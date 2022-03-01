@@ -1,6 +1,6 @@
 <h1 align="center">ESC-Electric Skatebord Club- London</h1>
 
-[View the live project here.](https://babalu2017.github.io/ElectricSkateboardClub/)
+[View the live project here.](https://babalu2017.github.io/ElectricSkateboardClub/ target="_blank") 
 
 This website has the intent to reunite people in London that share the same passion ELECTRIC SKATEBOARDS/LONGBOARDS.
 Our platform has the aim  to promote meetups and rides London.
