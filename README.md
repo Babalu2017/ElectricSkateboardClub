@@ -23,7 +23,7 @@ If you want to know about the best electric boards, events, meet other eskaters,
 
         1. As a Returning Visitor, I want to find information about new technologies used for upgrade Electric Skateborads.
         2. As a Returning Visitor, I want to find the best way to get in contact with people that share my same interests and ask any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any newly added meetups.
@@ -97,7 +97,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation. [screenshot1] (assets/images/ux_screenshoots/optimazed_purpose1.jpg) [screenshot2] (assets/images/ux_screenshoots/optimazed_purpose2.jpg)
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a carousel Hero Images with  buttons a "Join Us"  "Learn How" and "Read more" Call to action button.
         2. The main points are made immediately with the hero image
