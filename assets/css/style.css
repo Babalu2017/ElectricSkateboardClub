@@ -149,17 +149,17 @@
     }
     
     .carousel-image-1 {
-      background: url("../images/boosterEskCartoonWEB.gif") no-repeat center center;
+      background: url("../images/index_page/optimazed_booster_esk.jpg") no-repeat center center;
       background-size: cover;
     }
     
     .carousel-image-2 {
-      background: url("../images/StreetSamurai2CartoonWEB.gif") no-repeat center center;
+      background: url("../images/index_page/optimazed_street_samurai.jpg") no-repeat center center;
       background-size: cover;
     }
     
     .carousel-image-3 {
-      background: url("../images/pinIndustrialStreet2CartoonWEB.gif") no-repeat center bottom;
+      background: url("../images/index_page/optimazed_industrial_street.jpg") no-repeat center bottom;
       background-size: cover;
     }
     
@@ -201,7 +201,7 @@
   #page-header {
     height: 250px;
     width: 100%;
-    background: url("../images/goldenFromStPaulWEB.gif") no-repeat center center;
+    background: url("../images/optimazed_london_landscape.jpg") no-repeat center center;
     background-position: 0 0;
     background-size: 100%;
     background-attachment: fixed;
